@@ -12,7 +12,8 @@ const char =(props) => {
         textAlign: 'center'
     }
     return (
-        <div style={style}>
+        <div style={style}
+        onClick={props.remove}>
             {props.symbol}
         </div>
     )
